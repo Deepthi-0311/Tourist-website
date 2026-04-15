@@ -1,0 +1,539 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+.one{background-image:url(https://www.aljazeera.com/wp-content/uploads/2019/10/455009ab51f54773aaf11a3c4fd32d75_8.jpeg?resize=1200%2C630);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;  
+    list-style: none;
+    gap: 30px; 
+}
+.nav-links li a{
+   text-decoration: none;
+   color: white;
+}
+.navbar button{
+   border-radius: 30px;
+   background-color:rgb(5, 124, 172);
+   margin-right: 180px;
+   height: 40px;
+   width: 130px;
+   color: white;
+   border: transparent;
+}
+.two{
+   background-color: black;
+   
+}
+.two{
+   margin-top: -30px;
+   background-color: rgba(0, 0, 0, 0.521);
+   border-radius: 50px;
+   padding: 8px;
+}
+
+.dropdown-menu li a{
+color: black;
+}
+
+.A h1{
+   color: white;
+   font-weight:bold;
+   font-size: 60px;
+}
+.A p{
+   color: white;
+   font-size: 20px;
+}
+.A button{
+border-radius: 30px;
+width: 200px;
+height: 50px;
+border-color: transparent;
+background-color: transparent;
+border-color: white;
+color: white;
+font-weight: bolder;
+}
+.A button:hover{
+background-color:dodgerblue;
+}
+.dropdown button{
+width: 400px;
+background-color: transparent;
+}
+.four input , .five input{
+   width: 200px;
+border-radius: 10px;
+padding: 10px;
+background-color: transparent;
+color: white;
+}
+form{
+   width: 500px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.877);
+  box-shadow: 0px 0px 10px rgb(255, 253, 253);
+  border-radius: 10px;
+  /* text-align: center; */
+  margin: 10px ;
+}
+.droopdown button{
+   width: 200px;
+   background-color: transparent;
+}
+.droppdown button{
+width: 400px;
+background-color: transparent;
+
+}
+.four input:focus , .five input:focus{
+outline-color:blue;
+}
+.six button , .seven button{
+   width: 200px;
+   
+}
+.eight button{
+   width: 400px;
+   padding: 5px;
+   background-color: cyan;
+   border-radius: 10px;
+}
+form .C , .D , .E , .F , .G , .H{
+   color: white;
+}
+.eight button:hover{
+    transform:scale(1,1) ;
+}
+.droppdown button:hover{
+   background-color:transparent ;
+}
+.droopdown button:hover{
+      background-color:transparent ;
+}
+.dropdown button:hover{
+   background-color: transparent;
+}
+.I {
+   background-color: white;
+   padding: 30px;
+}
+.I h1{
+font-weight: 700;
+}
+.I p{
+   font-size: larger;
+}
+.J img{
+ height: 300px;
+ margin-top: 80px;
+ width: 600px;
+ border-radius: 10px;
+}
+.K {
+   background-color: rgb(10, 185, 243);
+display: inline-block;
+border-radius: 15px;
+height: 90px;
+padding: 10px;
+    position: relative;
+  top: -140px;
+  left: 30px;
+  color: white;
+}
+.L h2{
+   color: rgb(10, 185, 243);
+   font-weight: bolder;
+}
+.L{
+   display: flex;
+   gap: 40px;
+}
+.N{
+   text-align: center;
+}
+.O i , .P i{
+   font-size: 100px;
+}
+.O{
+   display: flex;
+   justify-content: center;
+  gap: 140px;
+}
+.O .card , .P .card{
+   height: 300px;
+}
+.P{
+   /* display: flex; */
+   justify-content: center;
+   padding-left: 110px;
+} 
+.P .card:hover{
+   transform: scale(1,1);
+}
+.Q .S {
+   background-color:aquamarine;
+   width: 300px;
+   margin-left: 500px;
+   height: 50px;
+   padding: 10px;
+   border-radius: 20px;
+}
+.R h1{
+   color:black;
+}
+.R .T{
+   color:rgba(0, 0, 255, 0.822);
+}
+.U img{
+   height: 630px;
+   width: 600px;
+   border-radius: 20px;
+}
+ .V div h5{
+   background-color:rgba(0, 0, 255, 0.534);
+   width: 200px;
+   position:relative;
+    top: -480px;
+  left: 30px;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.V .a , .b , .c ,h4{
+position: relative;
+ top: -460px;
+  left: 30px;
+  color: white;
+}
+.V h4{
+   color: white;
+   position: relative;
+ top: -430px;
+} 
+.V i{
+   color:rgb(14, 163, 223);
+} 
+.V h1{
+   color: rgb(9, 172, 236);
+   position: relative;
+    top: -440px;
+  left: 30px;
+} 
+ .d h6{position: relative;
+    top: -450px;
+  left: 30px;
+  color: white;
+  /* margin-left: 80px;  */
+ }
+.e h6{
+   position: relative;
+    top: -450px;
+ right: 180px;
+  color: white;
+}
+.V h4{
+   color:white;
+}
+
+.f button{
+   background:rgba(8, 8, 8, 0.562);
+   padding: 10px;
+   border-radius: 30px;
+   font-weight: bolder; 
+   color: white;
+}
+.f button i{
+   color: white;
+}
+.f{
+   position: relative;
+   top: -430px;
+   left: 30px;
+}
+.W img{
+   height: 198px;
+   width: 400px;
+}
+.l h6{
+   color: rgb(16, 90, 226);
+}
+.k i{
+   color: rgb(255, 255, 0);
+}
+.W h6 a{
+   text-decoration: none;
+}
+.W p i{
+   color: rgb(0, 173, 241);
+}
+.W .card{
+   height: 200px;
+   width: 1000;
+   box-shadow: 0cap;
+}
+.k h6{
+   position: relative;
+   left: 50px;
+}
+.j h6{
+   font-size: 14px;
+}
+.W .card{
+    box-shadow: 0px 20px 30px rgb(243, 241, 241) ;
+}
+.a8 p{
+font-size: 15px;
+}
+.a10 h6{
+background-color: aqua;
+border-radius: 20px;
+text-align: center;
+font-size: 13px;
+}
+.a2 .card{
+   height: 550px;
+   /* padding: 10px; */
+}
+.a5 i , .a7 i {
+   color: rgb(1, 176, 245);
+}
+.a12 h6{
+   position: relative;
+   bottom: -18px;
+   right: 30px;
+   color: yellow;
+}
+.a12 button{
+   width: 80px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: rgb(0, 173, 241);
+   border-color: transparent;
+   margin-left: 30px;
+}
+.a12 .a13{
+   color: black;
+}
+.a14{
+   padding: 10px;
+}
+.a16 button{
+   width: 150px;
+   height: 55px;
+   font-size: 15px;
+ border-radius: 10px;
+ border-color: rgb(2, 183, 255);
+}
+.a16 button:hover{
+   background-color: rgb(2, 183, 255); ;
+}
+.a19{
+   position: relative;
+   bottom: 280px;
+   left: 520px;
+   background-color: aqua;
+   width: 200px;
+   border-radius: 30px;
+   padding: 2px;
+   text-align: center;
+   color: black;
+}
+.a18 h1{
+    position: relative;
+   bottom: 280px;
+   left: 430px;
+}
+/* .a20{
+   color:rgb(0, 0, 0);
+}
+.a22{
+   color:rgb(21, 5, 252);
+} */
+.a1{
+position: relative;
+bottom: 230px;
+}
+.a1 .card{
+   position: relative;
+   left: 30px;
+}
+.a52 {
+   background-color:white;
+}
+.a54{
+   font-size: 50px;
+}
+.a55{
+   font-size: 20px;
+}
+.a57{
+   font-size:30px;
+   color: white;
+   background-color: rgba(0, 0, 255, 0.801);
+   height: 70px;
+   width: 200px;
+   border-radius: 30px;
+}
+.a59 {
+   font-size: 25px;
+   color: rgb(1, 134, 187);
+   border-color: rgb(0, 183, 255);
+   border-radius: 30px;
+   width: 200px;
+   height:70px ; 
+}
+.a52{
+   font-size: 20px;
+   height: 50px;
+   padding: 10px;
+}
+.a60 {
+   position: relative;
+   top: 40px;
+}
+.a53 {
+   position: relative;
+   bottom: 200px;
+}
+.a61 {
+   position: relative;
+   bottom: 150px;
+  
+}
+.a62 , .a63{
+   position: relative;
+   bottom: 150px;
+   left: 30px;
+   color: white;
+}
+.a61 img{
+   border-radius: 30px;
+   width: 650px;
+}
+.a64 button{
+   height: 80px;
+   width: 450px;
+   border-radius: 30px;
+}
+.a65{
+   color: rgb(1, 118, 164);
+}
+.a60 h5{
+  position: relative;
+  bottom: 30px;
+  top: -30px;
+  background-color: rgb(0, 137, 191);
+  width: 250px;
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.a50{
+   margin: 40px;
+}
+.a66 h1{
+   color: black;
+}
+.a66 h5{
+   color: rgb(4, 3, 3);
+}
+.a66 {
+   position:relative;
+   top: -150px;
+
+}
+.a67 i{
+   font-size: 70px;
+   align-items: center;
+   width: 100px;
+   border-radius: 30px;
+   background-color: rgb(3, 151, 209);
+   color: white;
+   padding: 9px;
+}
+.a67 .card p{
+font-size: 20px;
+padding: 10px;
+}
+.a67 .card{
+   height: 350px;
+background-color:whitesmoke;
+border-color: whitesmoke;
+border-radius: 30px;
+}
+.a68{
+   margin: 50px;
+   position: relative;
+   top: -70px;
+}
+.a70{
+   background-color: black;
+   color: white;
+}
+.a70 p{
+   font-size: 20px;
+}
+.a70 input{
+   width: 600px;
+   height: 40px;
+   border-radius: 30px;
+   background-color:rgba(46, 46, 46, 0.622);
+   border-color: gray;
+}
+.a69 button{
+   background-color: rgb(7, 176, 243);
+   height: 40px;
+   width: 150px;
+   border-radius: 30px;
+   font-size:large;
+   color: white;
+}
+.a69 button{
+   position: relative;
+   left: -150px;
+   border-color: transparent;
+}
+.a69{
+   padding: 30px;
+}
+.a71{
+background-color: rgba(0, 0, 0, 0.932);
+color: white;
+}
+.a73{
+   color: rgb(6, 174, 241);
+}
+.a74{
+   position: relative;
+   right: 100px;
+   color: white;
+}
+.a75 i , .a76 i , .a77 i , .a78 i{
+   font-size: 30px;
+   border-radius: 100%;
+   border-color: brown;
+}
+.a72{
+   position: relative;
+   left: 30px;
+}
+.a72 p , .a74 p {
+   font-size: 15px;
+}
